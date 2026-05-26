@@ -100,7 +100,14 @@
     border-radius: 100%;
     width: 170px;
     position: relative;
-    bottom: 5px;
+    bottom: 7px;
+    animation: bounce 5s infinite;
+  }
+
+  @keyframes bounce {
+    50% {
+      transform: translateY(7px);
+    }
   }
 
   #b3 {
